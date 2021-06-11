@@ -1,0 +1,14 @@
+/* Lecture 3 */
+
+Import UIKit
+
+class ViewController: UIViewController  {
+  @IBOutlet var centerLabel: UILabel?
+  
+  Override func viewDidLoad()  {
+    super.viewDidLoad()
+    centerLabel.textAlignment = .center
+    sayHello()
+    }
+    & IBAction func button Tapped
+    (Sender : UI Button)  {
